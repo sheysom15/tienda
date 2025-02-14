@@ -1,12 +1,51 @@
+/*SELECTOR DE ID*/
 #Tituloprincipal{
     
     text-align: center;
     color: white;
     background: purple;
+  
+}
+/*SELECTOR DE CLASES*/
+.parraforojo{
+      color: red;
+      border: 1px solid;
+      padding: 4px 10px 15px;
+      padding: 4px 10px 15px;
+      padding: 4px 10px 15px 30px;
+      margin: 20px;
+      margin-bottom: 40px;
+      margin-top: 30px;
 }
 
-
-.Parrafo Verde{
+.parrafoverde{
     
     color: green;
+    
+}
+/*SELECTOR DE ELEMENTO*/
+p, h1, div {
+   font-size: 25px;
+        
+}
+/*SELECTOR DE DESCENDENTE*/
+div p.parrafoverde {
+    font-size: 50px;
+}
+
+a{
+    font-size: 20px;
+}
+a:hover{
+    color:red;
+    transition: 2s;
+    
+}
+a:visited {
+    color:green;
+}
+
+a:active{
+    color: white;
+    background: black;
 }
